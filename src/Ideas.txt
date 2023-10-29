@@ -1,0 +1,5 @@
+Change the navbar text to images i made in photoshop
+Small glow animation upon highlighting
+Instead of the icon I could change it to a navigation bar
+Scrolling animations
+(Inspect Star rail pages and check how often )
