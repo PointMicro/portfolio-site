@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/pomic-portfolio/static/css/main.1666177c.css",
-    "main.js": "/pomic-portfolio/static/js/main.21086ada.js",
-    "index.html": "/pomic-portfolio/index.html",
-    "main.1666177c.css.map": "/pomic-portfolio/static/css/main.1666177c.css.map",
-    "main.21086ada.js.map": "/pomic-portfolio/static/js/main.21086ada.js.map"
+    "main.css": "/portfolio-site/static/css/main.1666177c.css",
+    "main.js": "/portfolio-site/static/js/main.21086ada.js",
+    "index.html": "/portfolio-site/index.html",
+    "main.1666177c.css.map": "/portfolio-site/static/css/main.1666177c.css.map",
+    "main.21086ada.js.map": "/portfolio-site/static/js/main.21086ada.js.map"
   },
   "entrypoints": [
     "static/css/main.1666177c.css",
