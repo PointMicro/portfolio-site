@@ -1,4 +1,8 @@
 Change the navbar text to images i made in photoshop
+
+Change the gradient of the navbar to greyish greenish black
+Change hover from color to outline glow 
+
 Small glow animation upon highlighting
 Instead of the icon I could change it to a navigation bar
 Scrolling animations

@@ -1,7 +1,11 @@
 import React from 'react';
 
+
 const Home = () => {
   return (
+
+    
+
     <div>
       <div className="home-header">
         <h1>Welcome!</h1>
@@ -10,8 +14,88 @@ const Home = () => {
 
       <div className="home-content">
         <p>
-          Explore my projects, learn more about me or get in touch with me in the ABOUT page
+        Explore my projects, learn more about me or get in touch with me in the ABOUT page
+        Explore my projects, learn more about me or get in touch with me in the ABOUT page
         </p>
+        <p>This is the first paragraph.</p>
+<p>This is the second paragraph.</p>
+<p>This is the first paragraph.</p>
+<p>This is the second paragraph.</p>
+
+<p>This is the first paragraph.</p>
+<p>This is the second paragraph.</p>
+
+<p>This is the first paragraph.</p>
+<p>This is the second paragraph.</p>
+
+<p>This is the first paragraph.</p>
+<p>This is the second paragraph.</p>
+
+<p>This is the first paragraph.</p>
+<p>This is the second paragraph.</p>
+
+<p>This is the first paragraph.</p>
+<p>This is the second paragraph.</p>
+
+<p>This is the first paragraph.</p>
+<p>This is the second paragraph.</p>
+
+<p>This is the first paragraph.</p>
+<p>This is the second paragraph.</p>
+<p>This is the first paragraph.</p>
+<p>This is the second paragraph.</p>
+
+<p>This is the first paragraph.</p>
+<p>This is the second paragraph.</p>
+
+<p>This is the first paragraph.</p>
+<p>This is the second paragraph.</p>
+
+
+<p>This is the first paragraph.</p>
+<p>This is the second paragraph.</p>
+
+<p>This is the first paragraph.</p>
+<p>This is the second paragraph.</p>
+
+<p>This is the first paragraph.</p>
+<p>This is the second paragraph.</p>
+
+<p>This is the first paragraph.</p>
+<p>This is the second paragraph.</p>
+
+<p>This is the first paragraph.</p>
+<p>This is the second paragraph.</p>
+
+<p>This is the first paragraph.</p>
+<p>This is the second paragraph.</p>
+
+<p>This is the first paragraph.</p>
+<p>This is the second paragraph.</p>
+
+<p>This is the first paragraph.</p>
+<p>This is the second paragraph.</p>
+
+<p>This is the first paragraph.</p>
+<p>This is the second paragraph.</p>
+
+<p>This is the first paragraph.</p>
+<p>This is the second paragraph.</p>
+
+<p>This is the first paragraph.</p>
+<p>This is the second paragraph.</p>
+
+<p>This is the first paragraph.</p>
+<p>This is the second paragraph.</p>
+
+<p>This is the first paragraph.</p>
+<p>This is the second paragraph.</p>
+
+<p>This is the first paragraph.</p>
+<p>This is the second paragraph.</p>
+
+
+
       </div>
 
       {/* <div className="social-links">
@@ -26,6 +110,7 @@ const Home = () => {
         </a>
       </div> */}
     </div>
+    
   );
 };
 
