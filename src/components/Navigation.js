@@ -30,9 +30,9 @@ const Navigation = () => {
       </a>
       <div>
         <ul id="navbar">
-          <li><a className="active" href="/">Home</a></li>
-          <li><a href="/projects">Projects</a></li>
-          <li><a href="/play">Play</a></li>
+          <li><a className="active" href="/">In Development</a></li>
+          <li><a href="/projects">Come back Soon</a></li>
+          <li><a href="/play">Home Projects Play</a></li>
           <li><a href="/about">About</a></li>
         </ul>
       </div>
