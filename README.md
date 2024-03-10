@@ -1,1 +1,4 @@
-This project was made with React
+[Currently in development]
+
+
+Made with React
