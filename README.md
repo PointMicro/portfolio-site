@@ -1,4 +1,5 @@
 [Currently in development]
 
+Development Restarted in November:
 
-Made with React
+Made in React with Visual Studio Code

@@ -1,28 +1,22 @@
 import React from 'react';
-import { BrowserRouter, Route, Routes } from 'react-router-dom'; // Import BrowserRouter
-import './App.css';
-import Navigation from './components/Navigation';
-import Home from './components/Home';
+import Navbar from './components/Navbar';
+import Intro from './components/Intro';
+import Skills from './components/Skills';
 import Projects from './components/Projects';
-import Play from './components/Play';
-import About from './components/About';
+import GameRoom from './components/GameRoom';
+import Footer from './components/Footer';
 
-function App() {
+const App = () => {
   return (
-    <BrowserRouter> {/* Wrap your app with BrowserRouter */}
-      <div className='gradient-background'> {/* Add the gradient-background class */}
-        <div className='App'>
-          <Navigation/>
-          <Routes>
-            <Route path="/" element={<Home />} /> 
-            <Route path="/projects" element={<Projects />} />
-            <Route path="/play" element={<Play />} />
-            <Route path="/about" element={<About />} />
-          </Routes>
-        </div>
-        </div>
-    </BrowserRouter>
+    <div>
+      <Navbar />
+      <Intro />
+      <Skills />
+      <Projects />
+      <GameRoom />
+      <Footer />
+    </div>
   );
-}
+};
 
 export default App;
