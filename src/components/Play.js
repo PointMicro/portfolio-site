@@ -5,7 +5,7 @@ const Play = () => {
     <div>
       <div className="home-header">
         <h1>Play Games!</h1>
-        <p>This is where'd you play a webgame, (Currently not implemented)</p>
+        <p>This is where you would play a webgame, (Currently not implemented)</p>
       </div>
 
       <div className="home-content">

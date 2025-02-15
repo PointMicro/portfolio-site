@@ -1,171 +1,58 @@
-/* General Reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  /* Body Styling */
-  body {
-    font-family: 'Arial', sans-serif;
-    font-size: 16px;
-    line-height: 1.6;
-    color: #333;
-    background-color: #f9f9f9;
-    scroll-behavior: smooth;
-  }
-  
-  /* Navbar */
-  nav {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-color: #333;
-    color: white;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    z-index: 1000;
-  }
-  
-  nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    padding: 10px 0;
-  }
-  
-  nav ul li {
-    margin: 0 15px;
-  }
-  
-  nav ul li a {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    transition: color 0.3s ease;
-  }
-  
-  nav ul li a:hover {
-    color: #00bcd4;
-  }
-  
-  /* Section Styling */
-  section {
-    padding: 100px 20px;
-    text-align: center;
-  }
-  
-  section h1, section h2 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-    color: #333;
-  }
-  
-  section p {
-    font-size: 1.2rem;
-    color: #666;
-  }
-  
-  /* Skills Section */
-  .skills-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-  }
-  
-  .skill {
-    padding: 15px 30px;
-    border: 2px solid #ddd;
-    border-radius: 8px;
-    background-color: #fff;
-    font-weight: bold;
-    cursor: pointer;
-    transition: transform 0.2s, box-shadow 0.2s;
-  }
-  
-  .skill:hover {
-    transform: scale(1.1);
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  /* Projects Section */
-  .projects-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-  }
-  
-  .project-card {
-    width: 300px;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    overflow: hidden;
-    transition: transform 0.3s, box-shadow 0.3s;
-  }
-  
-  .project-card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2);
-  }
-  
-  .project-card img {
-    width: 100%;
-    height: auto;
-    border-bottom: 1px solid #ddd;
-  }
-  
-  .project-card h3 {
-    margin: 10px 0;
-    font-size: 1.5rem;
-  }
-  
-  .project-card p {
-    padding: 0 10px 20px;
-    color: #555;
-  }
-  
-  /* Game Room Section */
-  .game-room {
-    padding: 20px;
-  }
-  
-  .game-room a {
-    text-decoration: none;
-    color: #00bcd4;
-    font-size: 1.5rem;
-    font-weight: bold;
-    transition: color 0.3s ease;
-  }
-  
-  .game-room a:hover {
-    color: #00796b;
-  }
-  
-  /* Footer */
-  footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 20px 0;
-    margin-top: 20px;
-  }
-  
-  footer p {
-    font-size: 1rem;
-  }
-  
-  /* Responsiveness */
-  @media (max-width: 768px) {
-    section h1, section h2 {
-      font-size: 2rem;
-    }
-  
-    .skill, .project-card {
-      width: 90%;
-      margin: 0 auto;
-    }
-  }
-  
+body {
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #ECECF1; /* Off-white text */
+  background-color: #202123; /* Dark grey background */
+  scroll-behavior: smooth;
+}
+ /* Navbar */
+ nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #00bcd4;
+}
+
+section h1, section h2 {
+  color: #ECECF1; /* Headings */
+}
+
+section p {
+  color: #A3A3A3; /* Muted text for descriptions */
+}
+
+.skill, .project-card {
+  background-color: #2C2C2E; /* Dark card backgrounds */
+  color: #ECECF1;
+  border: 1px solid #333;
+}
+
+.skill:hover, .project-card:hover {
+  box-shadow: 0px 4px 8px rgba(16, 163, 127, 0.4); /* Teal glow on hover */
+}

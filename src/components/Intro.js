@@ -1,11 +1,15 @@
+import React from "react";
+import { Link } from "react-router-dom";
+
 const Intro = () => {
-    return (
-      <section id="intro" style={{ height: '100vh', padding: '50px', textAlign: 'center' }}>
-        <h1>Welcome to My Portfolio</h1>
-        <p>Description..........................................................................................</p>
-      </section>
-    );
-  };
-  
-  export default Intro;
-  
+  return (
+    <div className="intro">
+      <h1>Welcome</h1>
+      <p>About me teadsadsdasxtsdfsdffhfghghfdsf goes here.</p>
+      <p>Feel free to explore or...</p>
+      <Link to="/gameroom" className="game-room-link">Enter the Game Room!</Link>
+    </div>
+  );
+};
+
+export default Intro;

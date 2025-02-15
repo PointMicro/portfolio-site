@@ -8,14 +8,14 @@
 body {
   font-family: 'Arial', sans-serif;
   line-height: 1.6;
-  color: #333;
-  background-color: #f9f9f9;
+  color: #ffffff;
+  background-color: #000000; /* True dark background */
   scroll-behavior: smooth;
 }
 
 /* Navbar */
 nav {
-  background-color: #333;
+  background-color: #ff1212;
   color: #fff;
   position: fixed;
   top: 0;
@@ -46,92 +46,101 @@ nav ul li a:hover {
   color: #00bcd4;
 }
 
-/* Section Styles */
-section {
-  padding: 100px 20px;
+/* Intro Page */
+.intro {
   text-align: center;
+  background-color: #1e1e1e;
+  padding: 100px 20px;
 }
 
-section h1, section h2 {
-  margin-bottom: 20px;
-  font-size: 2.5rem;
-  color: #333;
+.intro h1 {
+  font-size: 3rem;
 }
 
-section p {
-  margin-bottom: 20px;
+.intro p {
   font-size: 1.2rem;
-  color: #666;
+  margin-bottom: 20px;
+}
+
+.game-room-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #00796b;
+  color: #fff;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.game-room-link:hover {
+  background-color: #005f56;
 }
 
 /* Skills Section */
-#skills div {
+#skills {
   display: flex;
-  justify-content: center;
+  background-color: #1e1e1e;
   flex-wrap: wrap;
-  gap: 20px;
-}
-
-#skills div > div {
-  padding: 20px;
-  border: 2px solid #ddd;
-  border-radius: 10px;
-  background-color: #fff;
-  transition: transform 0.2s, box-shadow 0.2s;
-  cursor: pointer;
-}
-
-#skills div > div:hover {
-  transform: scale(1.1);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-/* Projects Section */
-#projects div {
-  display: flex;
   justify-content: center;
-  flex-wrap: wrap;
   gap: 20px;
+  padding: 50px 0;
 }
 
-#projects div > div {
-  width: 300px;
+.skill-item {
+  padding: 15px;
+  background-color: #1e1e1e;
+  border-radius: 8px;
   text-align: center;
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  transition: transform 0.2s, box-shadow 0.2s;
+  cursor: pointer;
+  transition: transform 0.3s ease;
 }
 
-#projects div > div:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+.skill-item:hover {
+  transform: scale(1.1);
 }
 
-#projects img {
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
+.skill-icon {
+  font-size: 40px;
   margin-bottom: 10px;
 }
 
-/* Game Room Section */
-#game-room a {
-  text-decoration: none;
-  color: #00bcd4;
-  font-size: 1.5rem;
-  font-weight: bold;
-  transition: color 0.3s ease;
+/* Projects Section */
+#projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 50px 0;
 }
 
-#game-room a:hover {
-  color: #00796b;
+.project-card {
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+}
+
+.project-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.project-description {
+  margin-top: 10px;
+  font-size: 1rem;
 }
 
 /* Footer */
 footer {
-  background-color: #333;
+  background-color: #1e1e1e;
   color: #fff;
   text-align: center;
   padding: 20px;
