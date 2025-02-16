@@ -55,11 +55,13 @@ nav ul li a:hover {
 
 .intro h1 {
   font-size: 3rem;
+  
 }
 
 .intro p {
   font-size: 1.2rem;
   margin-bottom: 20px;
+  font-family: "Gill Sans", sans-serif;
 }
 
 .game-room-link {

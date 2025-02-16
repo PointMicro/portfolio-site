@@ -1,11 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=YourChosenFont:wght@400;700&display=swap');
+
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: "Gill Sans", sans-serif;  
   font-size: 16px;
   line-height: 1.6;
   color: #ECECF1; /* Off-white text */
   background-color: #202123; /* Dark grey background */
   scroll-behavior: smooth;
+  padding: 0%;
 }
+
+.intro p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  font-family: "Comic Neue", sans-serif;
+  border: 2px solid #10A37F; /* Border with teal color */
+  padding: 15px;
+  margin: 30px 0;
+  line-height: 1.8; /* Adjusts line spacing */
+}
+
+.intro-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-top: 80px; /* Adjust this based on your navbar height */
+}
+
+.intro-content, .intro-text, footer {
+  margin-top: 30px;
+}
+
+
+.intro-text {
+  width: 60%;
+}
+
+.image-stack {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+}
+
+.stack-image {
+  width: 100%;
+  margin-top: 40px;
+
+  display: block;           /* Removes any inline spacing */
+  padding: 0;               /* Removes any padding */
+  border: none;             /* Optional: removes any border if not needed */
+  width: 100%;              /* Ensures full width */
+
+}
+.intro-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+
+
+.intro-border {
+  border: 2px solid #10A37F; /* Keeps border intact */
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.icon-box:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 8px rgba(16, 163, 127, 0.4);
+}
+
+.icon-links {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+
+.icon-img {
+  width: 32px;  /* Adjust size as needed */
+  height: 32px;
+  transition: transform 0.3s ease;
+}
+
+.icon-img:hover {
+  transform: scale(1.1);
+}
+
+.icon-box {
+  margin: 0 10px;
+  padding: 5px;
+  width: 75px;
+  height: 75px;
+  background-color: #2C2C2E; /* Dark background */
+  border: 2px solid #10A37F; /* Teal border */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ECECF1;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.contact-section {
+  margin-top: 20px;
+  font-size: 1.1rem;
+  color: #ECECF1;
+}
+
+.contact-section a {
+  color: #10A37F;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contact-section a:hover {
+  text-decoration: underline;
+}
+
  /* Navbar */
  nav {
   position: fixed;
@@ -30,6 +148,7 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
+  font-size: 18px;
   color: white;
   font-weight: bold;
   transition: color 0.3s ease;
