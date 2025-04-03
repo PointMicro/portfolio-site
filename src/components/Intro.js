@@ -30,7 +30,7 @@ const Intro = () => {
 
         {/* Contact me */}
         <div className="contact-section">
-          <p>Contact me: <a href="mailto:pointmicro23@outlook.com">pointmicro23@outlook.com</a></p>
+          <p>Contact me: <a href="mailto:gabe720a@gmail.com">gabe720a@gmail.com</a></p>
         </div>
       </div>
 
