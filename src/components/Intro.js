@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import LPCon from '../imgs/pc1.gif';
 import GH from '../imgs/25231.png';
 import LI from '../imgs/LI.png';
