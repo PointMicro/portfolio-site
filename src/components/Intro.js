@@ -13,7 +13,7 @@ const Intro = () => {
         <h1>Homepage</h1>
         <div className="intro-border">
           <p>
-            My name is <strong>Gabriel</strong>, a passionate and detail-oriented <strong>Software Developer</strong> with a strong focus on creating secure, user-friendly, and innovative solutions. My expertise spans application security, mobile development, and full-stack development, where I use technical to deliver high-quality, scalable software.
+            My name is <strong>Gabriel A.</strong>, a passionate and detail-oriented <strong>Software Developer</strong> with a strong focus on creating secure, user-friendly, and innovative solutions. My expertise spans application security, mobile development, and full-stack development, where I use technical to deliver high-quality, scalable software.
           </p>
 
         </div>
